@@ -1,0 +1,28 @@
+.App {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image:url('D:\New Projects\socialmedia\src\pexels-ylanite-koppens-796605.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.name{
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+}
+input{
+  width: 100%;
+  padding: 10px;
+  border: none;
+  outline: none;
+  font-size: 25px;
+  transition: 0.4s;
+  border-radius: 5px;
+}
+
+input::placeholder{
+  font-size: 20px;
+}
